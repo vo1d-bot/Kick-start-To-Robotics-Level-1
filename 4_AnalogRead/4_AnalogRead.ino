@@ -16,7 +16,7 @@ void setup() {
 
 void loop() {
   int value = analogRead(POTENTIOMETER);
-  Serial.print("Value: ")
+  Serial.print("Value: ");
   Serial.println(value);
 }
 
